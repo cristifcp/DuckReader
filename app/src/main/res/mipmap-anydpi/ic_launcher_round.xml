@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The duck reading, on the pale colour its own drawing sits on. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/icon_bg_duck" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>

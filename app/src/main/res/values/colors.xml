@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="icon_bg_reading">#FFFDF2DE</color>
+    <color name="icon_bg_night">#FF202E49</color>
+    <color name="icon_bg_sleep">#FFFEF2DD</color>
+    <color name="icon_bg_favorites">#FFFEF3DF</color>
+    <!-- The colour the app icon is built on: the pale field the duck's own drawing sits on,
+         so the adaptive mask cuts into the same colour the drawing does. -->
+    <color name="icon_bg_duck">#FFD5FCF3</color>
+</resources>
