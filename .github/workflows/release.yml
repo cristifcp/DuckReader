@@ -42,7 +42,7 @@ jobs:
           PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
         run: |
           echo "$KEYSTORE" | base64 -d > "$RUNNER_TEMP/release.jks"
-          printf 'storeFile=%s\nstorePassword=%s\nkeyAlias=moonlight\nkeyPassword=%s\n' \
+          printf 'storeFile=%s\nstorePassword=%s\nkeyAlias=duckreader\nkeyPassword=%s\n' \
             "$RUNNER_TEMP/release.jks" "$PASSWORD" "$PASSWORD" > keystore.properties
 
       - name: Build the release
